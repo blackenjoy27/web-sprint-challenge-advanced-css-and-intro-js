@@ -71,6 +71,7 @@ img:hover {
 header{
     display:flex;
     justify-content: center;
+    width: 100%;
 }
 nav{
     width:30%;
@@ -141,11 +142,21 @@ button:hover{
 
 @media(max-width:500px){
     nav{
-        width: 50%;
+        width: 60%;
+        font-size: 80%;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    button{
+        font-size: 1.25rem;
     }
     .title-container div{
         width: 100%;
         margin-bottom: 1%;
+        height: 50vh;
+        background-size: auto;
+        background-position: center;
     }
     .title-container hr{
         width: 100%;

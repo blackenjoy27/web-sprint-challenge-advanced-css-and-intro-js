@@ -1,0 +1,17 @@
+1.How would you describe acessibility on the web to someone new to programming?
+
+    Accessbility => is your web readable to every browser inlcuding the minority.
+
+2.Talk about 3 different things you can do to ensure your website is accessible.
+
+    Fill in the value for alt. 
+    No red and green is used.
+    Use semantic HTML tag.
+
+3.How would you explain the concept of a variable to someone new to programming?
+
+    Container for datas.
+
+4.What is the purpose of using functions in code?
+
+    To keep a block of code safe and avoid DRY principle happening.

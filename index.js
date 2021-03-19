@@ -273,7 +273,11 @@ function get20s(arry){
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/){
+function removeArtist(arry,index){
+  if(index<arry.length){
+    arry.splice(index,1);
+  }
+  return arry.length;
    /*Your Code Here*/
 }
    
